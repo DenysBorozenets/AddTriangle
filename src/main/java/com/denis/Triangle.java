@@ -99,7 +99,8 @@ public class Triangle extends Shape {
         return "Triangle{" +
                 "a=" + a +
                 ", b=" + b +
-                ", c=" + c +
-                '}';
+                ", c=" + c + " " +
+                super.toString() +
+        '}';
     }
 }
